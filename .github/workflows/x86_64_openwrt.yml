@@ -2,7 +2,7 @@ name: immortalwrt_x86_64
 
 on:
   schedule:
-    - cron: 0 16 * * *
+    - cron: 0 16 4,9,14,19,24,31 * *
   workflow_dispatch:
 
 env:
